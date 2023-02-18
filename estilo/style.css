@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor__primaria: #1b06dd;
+    --cor__secundaria: #7ee7aa;
+
+}
+
+main {
+    display: flex;
+    background-image: linear-gradient(to right, var(--cor__primaria), var(--cor__secundaria));
+    justify-content: center;
+    gap: 200px;
+    
+    
+}
+
+/* header {
+    background-color: black;
+    display: flex;
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+} */
+
+.dados {
+    width: 300px;
+    height: 100vw;
+    border-radius: 0px 20px 20px 0px;
+    display: flex-box;
+    flex-wrap: wrap;
+    color: white;
+
+}
+
+.foto {
+    background-image: url(../imagens/imagem-perfil.png);
+    background-size: cover;
+    background-color: var(--cor__primaria);
+    width:200px;
+    height: 200px;
+    position: absolute;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: 100px;
+    
+}
+
+#dados-pessoais {
+    text-align: center;
+}
+
+#dados-pessoais p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 400px;
+    
+
+}
+
+#dados-pessoais ul {
+    display:flex;
+    list-style: none;
+    justify-content: space-around;
+    
+    
+}
+
+.contatos {
+    margin-top: 50px;
+}
+
+
+
+.soft-skils {
+    list-style: circle;
+    list-style-position: outside;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.soft-skils h3 {
+    padding: 20px;
+    text-align: left;
+    font-size: 2em;
+}
+
+.soft-skils li {
+    margin-left: 30px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.objetivos {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2em;
+    margin-top: 100px;
+    width: 700px;
+    height: 100vw;
+    text-indent: 3em;
+}
+
+.objetivos h1 {
+    font-style: italic;
+    text-align: center;
+    line-height: 1em;
+    font-size: 3em;
+    padding: 40px;
+}
+
+.habilidades {
+    margin-top: 40px;
+}
+
+h2 {
+    padding: 30px 0px;
+    font-size: 2em;
+}
+
+.habilidades ul {
+    display:flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.formacao {
+    display: block;
+}
+
+.formacao li {
+    margin-bottom: 20px;
+    list-style: inside;
+    text-align: left;
+}
